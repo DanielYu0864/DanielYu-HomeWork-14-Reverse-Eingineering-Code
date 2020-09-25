@@ -6,18 +6,46 @@
 2. MySQL as the database, Sequlize as Models, express.js as routes, and bcryptjs to keep user's password safety
 ```
 
-## Install
+## Folder Sturcture
+
 ```
-1. Change the directory to Develop folder
-2. Open TERMINAL
-3. run `npm install` (`npm i`)
+Develop
+├── config
+│   ├── middleware
+|   |   └── isAuthenticated.js
+|   ├── config.json
+|   └── passport.js
+├── models
+│   ├── index.js
+|   └── user.js
+├── public
+│   ├── js
+|   |   ├── login.js
+|   |   ├── members.js
+|   |   └── signup.js
+|   ├── stylesheets
+|   |   └── style.css
+|   └── html
+├── routes
+|   ├── spi-toutes.js
+|   └── html-routes.js
+├── server.js
+└── package.json
+```
+
+## Install
+* Change the directory to Develop folder
+```
+$ npm install
 ```
 
 ![npminstall](./gif/npminstall.gif)
 
 ## Usage
-
-* Run `node server.js`
+* Change the directory to Develop folder
+```
+$ node server.js
+```
 
 ![nodeserver](./gif/nodeserver.gif)
 
