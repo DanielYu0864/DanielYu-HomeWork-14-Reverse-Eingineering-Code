@@ -6,7 +6,7 @@
 2. MySQL as the database, Sequlize as Models, express.js as routes, and bcryptjs to keep user's password safety
 ```
 
-## Folder Sturcture
+## File Sturcture
 
 ```
 Develop
